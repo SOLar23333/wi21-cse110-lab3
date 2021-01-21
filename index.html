@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" href="mystyle.css">
 		<meta charset="UTF-8">
 		<title>
-			CSE 110 Lab 2 Personal Page
+			CSE 110 Lab 3 Personal Page
 		</title>
 		<link rel="icon" type="image/png" href="material/AppStore.png">
 		<style>
 			table, th, td {
 				border: 1px solid black;
 			}
+			body {
+				background-color: #FFE2E2;
+			}
 		</style>
 	</head>
 	<body>
 		<header>
-			<h1>
+			<h1 style="color:purple;" class="maintitle">
+				<img src="material/suanfa.png" alt="algorithm logo" class="algorithm">
 				Jared Zhang's Personal Page
-				<img src="material/suanfa.png" alt="algorithm logo" width="50" height="50">
 			</h1>
 			
 		</header>
 		
-		<h1>
+		<h1 class="welcome">
 			Welcome to Jared Zhang's personal GitHub page!
 		</h1>
-		<p><i>origin GitHub page</i></p>
-		<iframe id="inlineFrameExample"
-			title="Inline Frame Example"
-			width="600"
-			height="200"
-			src="https://solar23333.github.io">
-		</iframe>
-		<a href="https://www.linkedin.com/in/jiaer-zhang-3706431b0/">LinkedIn</a>
+		
+		
 		<main>
 			<section>
 				<h2>
@@ -81,8 +79,8 @@
 			</h3>
 			<nav>
 				<ul>
-					<li><a href="https://apple.co/35C6vkg">Link to App Store</a></li>
-					<li><a href="https://play.google.com/store/apps/details?id=com.UCSDTripleC.XPloreUCSD&hl=en_US&gl=US">Link to Google Play</a></li>
+					<li class="inline"><a href="https://apple.co/35C6vkg">Link to App Store</a></li>
+					<li class="inline"><a href="https://play.google.com/store/apps/details?id=com.UCSDTripleC.XPloreUCSD&hl=en_US&gl=US">Link to Google Play</a></li>
 				</ul>
 			</nav>
 			<aside>
@@ -122,6 +120,13 @@ visiting the UC San Diego campus.
 			</code>
 			<p> and I hate Python :)</p>
 		</section>
+		
+		<div class="flex-container">
+			<div>C++</div>
+			<div>C</div>
+			<div>Swift</div>  
+		</div>
+		
 		
 		
 		<hr>
@@ -190,7 +195,7 @@ visiting the UC San Diego campus.
 			</h3>
 			<p>my favorite (anime) idol: Kimura Ryu 木村龍</p>
 			<figure>
-				<img src="material/ryu_profile.jpeg" alt="Kimura Ryu's profile pic" width="400">
+				<img src="material/ryu_profile.jpeg" alt="Kimura Ryu's profile pic" class="ryu">
 				<audio
 					controls
 					src="material/ryu_LOS_intro.mp3">
@@ -198,7 +203,7 @@ visiting the UC San Diego campus.
 				<figcaption>©️BANDAI NAMCO ENTERTAINMENT</figcaption>
 			</figure>
 			
-			
+			<p class="hidden">SideM 315!</p>
 			
 			
 			<h3>
@@ -317,6 +322,31 @@ visiting the UC San Diego campus.
 		
 		<hr>
 		
+		<p class="center"><i>origin GitHub page</i></p>
+		<iframe id="inlineFrameExample"
+			title="Inline Frame Example"
+			width="600"
+			height="200"
+			src="https://solar23333.github.io">
+		</iframe>
+		<a href="https://www.linkedin.com/in/jiaer-zhang-3706431b0/">LinkedIn</a>
+		
+		<hr>
+		
+		<div class="grid-container">
+			<div class="grid-item">✖️</div>
+			<div class="grid-item">⭕️</div>
+			<div class="grid-item">✖️</div>  
+			<div class="grid-item">⭕️</div>
+			<div class="grid-item">⭕️</div>
+			<div class="grid-item">✖️</div>  
+			<div class="grid-item">✖️</div>
+			<div class="grid-item">✖️</div>
+			<div class="grid-item">⭕️</div>  
+		</div>
+		
+		<hr>
+		
 		<button onclick="showHeart()">This is a good page</button>
 		<button onclick="showTwoHeart()">This is a very good page</button>
 		
@@ -341,8 +371,10 @@ visiting the UC San Diego campus.
 			}
 		</script>
 		
-		<footer>
-			
+
+		
+		
+		<footer id="footnote">
 			<p>
 				©️2021 Jared Zhang
 			</p>
