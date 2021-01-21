@@ -1,0 +1,149 @@
+/* 
+	Author: Jared Zhang
+	PID: A15889667
+*/
+* 
+{
+	font-family: 'Open Sans', sans-serif;
+}
+	
+#footnote
+{
+	text-align: center;
+	border-style: dotted;
+	border-color: rgb(255, 99, 71);
+	border-width: 0.1cm;
+	border-radius: 20pt;
+	margin-top: 2em;
+	margin-bottom: 2rem;
+	margin-right: 30px;
+	margin-left: 30px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+	
+.center 
+{
+	text-align: center;
+	color: black;
+}
+
+h1.maintitle
+{
+	font-size: 5vw;
+}
+
+tr td
+{
+	background-color: rgb(0, 255, 255, 0.7);
+}
+
+span>strong
+{
+	text-decoration: underline;
+}
+
+h1, h2, h3
+{
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	margin: 1px 1px 1px 1px;
+}
+
+a[href="https://apple.co/35C6vkg"]
+{
+	background-color: hsla(51, 100%, 50%, 1);
+}
+
+a:hover 
+{
+	color: hsl(10, 100%, 64%);
+}
+
+a:active 
+{
+	color: #0000FF;
+}
+
+h2 + b
+{
+	margin: auto;
+}
+
+code ~ p 
+{
+	background-color: #333;
+	max-width: 30%;
+	min-width: 5%;
+}
+
+p.hidden
+{
+	display: none;
+}
+
+li.inline
+{
+	display: inline;
+}
+
+img.ryu
+{
+	width: 50%;
+	position: static;
+}
+
+img.algorithm
+{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.flex-container 
+{
+	display: flex;
+	background-color: HotPink;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+.flex-container > div 
+{
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding: 20px;
+	font-size: 40px;
+}
+
+.grid-container 
+{
+	display: grid;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	grid-template-columns: [first] 100px [line2] 100px [line3] 100px [end];
+	grid-template-rows: [first] 100px [line2] 100px [line3] 100px [end];
+	background-color: SkyBlue;
+	padding: 10px;
+	width: 340px;
+}
+
+.grid-item 
+{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	font-size: 50px;
+	text-align: center;
+}
+
+@media screen and (min-width: 1000px) 
+{
+	h2
+	{
+		color: DeepPink;
+	}
+}
